@@ -17,7 +17,7 @@ theme(){
 	# probably do something with resizing? depends on the situation.
 	# the laptop this is experimented on it works, but my main computer
 	# or other laptop will share the same result.
-	swww img --resize crop $img_path
+  awww img --resize crop $img_path
 }
 
 theme $(yad --width 800 --height 500 --file)
